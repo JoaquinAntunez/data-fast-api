@@ -28,7 +28,7 @@ def predict(
     Assumes `pickup_datetime` is provided as a string by the user in "%Y-%m-%d %H:%M:%S" format
     Assumes `pickup_datetime` implicitly refers to the "US/Eastern" timezone (as any user in New York City would naturally write)
     """
-    pass  # YOUR CODE HERE
+    return {'fare_amount': 5.93}
 
 
 @app.get("/")
